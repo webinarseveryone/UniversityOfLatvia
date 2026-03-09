@@ -278,51 +278,54 @@
             </div>
         </div>
     </section>
-<section id="industryshift" class="section-padding bg-black border-t border-zinc-900">
+<section id="industryshift" 
+         class="section-padding border-t border-zinc-900 relative" 
+         style="background: linear-gradient(rgba(0,0,0,0.9), rgba(139, 29, 49, 0.3)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-attachment: fixed;">
+    
     <h2 class="text-3xl font-black uppercase tracking-[0.4em] mb-16 text-center" data-aos="fade-up">
-        <span class="riga-ultra-bold">The Industry Paradigm Shift</span>
+        The Industry Paradigm Shift
     </h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="p-8 border border-zinc-800 bg-zinc-950 hover:border-red-600 transition-all group" data-aos="fade-up">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+        <div class="flex flex-col p-8 border border-zinc-800 bg-black/70 backdrop-blur-md hover:border-red-800 transition-all group" data-aos="fade-up">
             <div class="text-xs font-mono text-red-500 mb-4">[ 2010 - 2018 ]</div>
             <h4 class="text-xl font-bold mb-4 uppercase">Quality Assurance</h4>
-            <ul class="text-zinc-500 text-sm space-y-3 font-mono">
-                <li>• Role: Manual Tester</li>
-                <li>• Skill: Documentation & UI Logic</li>
-                <li>• Goal: "Find the bugs at the end"</li>
-            </ul>
-            <div class="mt-6 pt-6 border-t border-zinc-800 text-[10px] text-zinc-600 uppercase tracking-widest">Status: Legacy</div>
+            <p class="text-zinc-400 text-sm mb-6 flex-grow">
+                The era of manual verification. Focus was on post-development bug hunting. Siloed teams and heavy documentation were the bottleneck of the release cycle.
+            </p>
+            <div class="pt-4 border-t border-zinc-800 text-[10px] text-zinc-500 font-bold uppercase tracking-widest">
+                STATUS: LEGACY FOUNDATION
+            </div>
         </div>
 
-        <div class="p-8 border border-red-900/30 bg-zinc-950 hover:border-red-500 transition-all group scale-105 shadow-[0_0_30px_rgba(139,29,49,0.2)]" data-aos="fade-up" data-aos-delay="100">
+        <div class="flex flex-col p-8 border-2 border-[#8B1D31] bg-black/90 backdrop-blur-md scale-105 shadow-[0_0_40px_rgba(139,29,49,0.4)] z-10" data-aos="fade-up" data-aos-delay="100">
             <div class="text-xs font-mono text-red-500 mb-4">[ 2019 - 2024 ]</div>
-            <h4 class="text-xl font-bold mb-4 uppercase">Quality Engineering</h4>
-            <ul class="text-zinc-200 text-sm space-y-3 font-mono">
-                <li>• Role: SDET (Dev-in-Test)</li>
-                <li>• Skill: Java/Python, Selenium, Playwright</li>
-                <li>• Goal: "Automate the Pipeline (CI/CD)"</li>
-            </ul>
-            <div class="mt-6 pt-6 border-t border-zinc-800 text-[10px] text-red-500 font-bold uppercase tracking-widest">Status: Current Standard</div>
+            <h4 class="text-xl font-bold mb-4 uppercase text-white">Quality Engineering</h4>
+            <p class="text-zinc-200 text-sm mb-6 flex-grow">
+                The SDET revolution. Integrating Selenium, Playwright, and Katalon into CI/CD. Testing shifted from a "task" to a "software engineering discipline."
+            </p>
+            <div class="pt-4 border-t border-red-900 text-[10px] text-red-500 font-black animate-pulse uppercase tracking-widest">
+                STATUS: CURRENT INDUSTRY STANDARD
+            </div>
         </div>
 
-        <div class="p-8 border border-zinc-800 bg-zinc-950 hover:border-red-600 transition-all group" data-aos="fade-up" data-aos-delay="200">
+        <div class="flex flex-col p-8 border border-zinc-800 bg-black/70 backdrop-blur-md hover:border-red-800 transition-all group" data-aos="fade-up" data-aos-delay="200">
             <div class="text-xs font-mono text-red-500 mb-4">[ 2025 - FUTURE ]</div>
             <h4 class="text-xl font-bold mb-4 uppercase">Autonomous QA</h4>
-            <ul class="text-zinc-500 text-sm space-y-3 font-mono">
-                <li>• Role: AI Orchestrator / Agentic Eng</li>
-                <li>• Skill: LLMs, Self-Healing, Prompt Eng</li>
-                <li>• Goal: "Autonomous Quality Governance"</li>
-            </ul>
-            <div class="mt-6 pt-6 border-t border-zinc-800 text-[10px] text-blue-400 font-bold animate-pulse uppercase tracking-widest">Status: The Frontier</div>
+            <p class="text-zinc-400 text-sm mb-6 flex-grow">
+                AI Agents and Large Language Models. Focus on self-healing scripts, autonomous exploration, and generative test data. The era of the AI Orchestrator.
+            </p>
+            <div class="pt-4 border-t border-zinc-800 text-[10px] text-red-500 font-bold uppercase tracking-widest">
+                STATUS: EMERGING FRONTIER
+            </div>
         </div>
     </div>
 
-    <div class="mt-20 max-w-4xl mx-auto text-center" data-aos="fade-up">
+    <div class="mt-24 max-w-4xl mx-auto text-center" data-aos="fade-up">
         <blockquote class="text-2xl italic font-light leading-relaxed text-zinc-300">
-            "Software testing is no longer about checking if a button works. It's about building <span class="text-red-500 font-bold">resilient systems</span> that use AI to fix themselves before a human even knows there was a problem."
+            "Testing is no longer about finding bugs; it is about <span class="text-red-500 font-bold">preventing them</span> through automated architectural resilience."
         </blockquote>
-        <cite class="block mt-6 uppercase font-bold tracking-[0.2em] text-red-500 text-xs">— The Modern SDET Manifesto</cite>
+        <p class="mt-6 uppercase font-bold tracking-[0.2em] text-red-500 text-xs">— MODERN QE MANIFESTO</p>
     </div>
 </section>
 
